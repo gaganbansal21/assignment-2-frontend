@@ -1,8 +1,50 @@
-.nav{
-    display: block;
-    background-color: black;
+.Navbar_header{
     width: 100%;
-    height: 20px;
+    height: 50px;
+    padding: 0 0 0 32px;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: rgb(137 172 168);
+    align-content: center;
+    justify-content: space-between;
+    top: 0;
 }
+
+.logo_container{
+    display: flex;
+    align-items: center;
+}
+
+.h1{
+    color: white;
+}
+
+.div-shopping-cart-icon{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-right: 34px;
+}
+
+.shopping-cart-icon{
+    width: 34px;
+    height: 30px;
+}
+
+.count_trigger_span{
+    position: absolute;
+    text-align: center;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    left: 24px;
+    top: 8px;
+}
+
+
+
 
 

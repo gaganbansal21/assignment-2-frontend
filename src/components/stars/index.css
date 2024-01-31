@@ -1,0 +1,15 @@
+.rating_star {
+    display: flex;
+    gap: 4px;
+    color: #491040;
+    font-size: 18px;
+  }
+  
+  .rating_star svg {
+    color: #491040;
+    font-size: 18px;
+  }
+  
+  .half-star {
+    color: #491040;
+  }
